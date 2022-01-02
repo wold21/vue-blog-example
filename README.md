@@ -1,24 +1,13 @@
-# fireblogs
+## vue basic study
 
-## Project setup
-```
-npm install
-```
+-   router
+-   store
+-   vuex
+-   cli project
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## firebase
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+-   setting
+-   login
+-   register
+-   setup
