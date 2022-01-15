@@ -1,4 +1,5 @@
 import firebase from "firebase/app";
+import "firebase/firestore";
 
 const firebaseConfig = {
     apiKey: "AIzaSyDnWNOJMxxtgam7QclQ7GubI19G9RCdvZA",
@@ -9,7 +10,7 @@ const firebaseConfig = {
     appId: "1:208585306079:web:44c30c45135160bd23de6a",
 };
 
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+const firebaseApp = firebase.initializeApp(firebaseConfig); // eslint-disable-line no-unused-vars
 const timeStamp = firebase.firestore.FieldValue.serverTimestamp;
 
 export { timeStamp };
